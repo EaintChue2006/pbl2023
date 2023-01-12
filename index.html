@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<style type="text/css">
+		body{
+			background: #FAD8F8;
+		}
+		ul{
+			width: 100%;
+			list-style-type: none;            
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: right;
+		}
+		li a{
+			padding: 16px;
+			display: inline-block;
+			color: darkred;
+			text-decoration: none;
+		}
+		li a:hover, li:hover .ff{
+			background: #E4DEF5;
+		}
+		div.a{
+			display: none;
+			width: 200px;
+			background: #F5CBE0;
+		}
+		.z{
+			padding: 16px;
+			display: inline-block;
+			color: darkgreen;
+			text-decoration: none;
+		}
+		.z:hover{
+			background: lightpink;
+			width: 170px;
+		}
+		li:hover div{
+			display: block;
+			position: absolute;
+		}
+		.b{
+			font-family: cursive;
+			font-size: 23px;
+			color: white;
+			text-shadow: 0 0 25px blue;
+			float: left;
+			display: inline-block;
+		}
+		.b:hover{
+			color: #7E89B0;
+			font-size: 28px;
+			transition-duration: 3s;
+		}
+		div.e{
+			background: lightpink;
+			width: 100%;
+			height: 60px;
+			position: fixed;
+		}
+		h2{
+			text-align: center;
+			color: darkred;
+			text-shadow: 0 0 .7em purple;
+			font-family: Arial;
+		}
+		div.y{
+			display: flex;
+			flex-wrap: wrap;
+			width: 60%;
+			justify-content: center;
+			margin: 0 auto;
+		}
+		div.f{
+			float: left;
+			justify-content: center;
+		}
+		img{
+			width: 350px;
+			height: 250px;
+			margin: 25px;
+		}
+		img:hover{
+			opacity: 0.7;
+		}
+		h3{
+			font-family: "Arial Narrow";
+			color: darkred;
+		}
+		p{
+			color: darkgreen;
+			font-size: 18px;
+		}
+		@media only screen and (max-width: 800px){
+			.left{
+				width: 100%;
+			}
+	</style>
+</head>
+<body>
+	<div class="e left">
+			<p style="float: right; padding-right: 20px; padding-bottom: 20px;" class="b">E & M</p>
+			<h2>What kind of food are you looking for?</h2>
+		</div>
+		<br><br><br><br>
+	<div>
+		<ul class="left">
+			<li><a class="z" style="font-size: 25px; background: lightpink;" href="au.html"> About Us</a></li>
+			<li><a style="font-size: 25px;" class="ff" href="#fs"> Food Shops</a>
+				<div class="a">
+					<a class="z" href="cc.html">Myanmar Foods</a>
+					<a class="z" href="bb.html">Chinese Foods</a>
+					<a class="z" href="dd.html">Korean Foods</a>
+					<a class="z" href="ff.html">Indian Foods</a>
+					<a class="z" href="ee.html">Cafes & Deserts</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+		<br>
+		<div class="y left">
+		<div class="f">
+			<h3><u>Chinese Foods</u></h3>
+			<a href="bb.html"><img src="c2.png"></a>
+			<p>Click the picture to get more info...</p>
+		</div>
+		<div class="f">
+			<h3><u>Cafes & Deserts</u></h3>
+			<a href="ee.html"><img src="a3.png"></a>
+			<p>Cick the picture to get more info...</p>
+		</div>
+		<div>
+			<h3><u>Korean Foods</u></h3>
+			<a href="dd.html"><img src="d57.jpg"></a>
+			<p>Click the picture to get more info...</p>
+		</div>
+		<div>
+			<h3><u>Myanmar Foods</u></h3>
+			<a href="cc.html"><img src="b1.png"></a>
+			<p>Click the picture to get more info...</p>
+		</div>
+		<div>
+			<h3><u>Indian Foods</u></h3>
+			<a href="ff.html"><img src="f1.jpg"></a>
+			<p>Click the picture to get more info...</p>
+		</div>
+		</div>
+		<p class="b">E & M</p>
+</body>
+</html>
